@@ -27,10 +27,10 @@
 
         <div class="d-flex ms-auto">
             <?php //if (isset($_SESSION['usuario'])): ?>
-                <a href="cerrar_session.php" class="btn btn-outline-danger">Cerrar sesión</a>
+                <a href="cerrar_session.php" class="btn btn-outline-light me-2">Cerrar sesión</a>
             <?php //else: ?>
-                <a href="form-registro.php" class="btn btn-outline-light me-2">Registro-codigo</a>
-                <a href="login.php" class="btn btn-outline-light">login</a>
+                <a href="form-registro.php" class="btn btn-outline-light me-2">Registro</a>
+                <a href="login.php" class="btn btn-outline-light me-2">login</a>
             <?php //endif; ?>
         </div>
     </div>
